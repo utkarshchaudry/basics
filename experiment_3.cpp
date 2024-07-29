@@ -43,3 +43,20 @@ int main(){
 
     return 0;
 }
+/*Enter the value for A
+12
+Enter the value for B
+8
+Sum of the entered value is 20
+
+Difference of the entered value is 4
+
+Division of the entered value is 1
+
+Product of the entered value is 96
+
+Modulus of the entered value is 4
+
+Incremented A is 13
+
+Decremented B is 7*/
