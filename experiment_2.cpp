@@ -18,3 +18,10 @@ int main() {
     
     return 0;
 }
+/*Size of a1: 4byte
+Size of a2: 4byte
+Size of a3: 1byte
+Size of a4: 2byte
+Size of a5: 8byte
+Size of a6: 8byte
+*/
