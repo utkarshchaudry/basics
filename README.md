@@ -111,15 +111,7 @@ Operators are special symbols or keywords used to perform operations on operands
    - **Logical OR (`||`)**: Returns true if at least one of the operands is true.
    - **Logical NOT (`!`)**: Reverses the logical state of its operand.
 
-#### 4. **Bitwise Operators**:
-   - **Bitwise AND (`&`)**: Performs a bitwise AND operation.
-   - **Bitwise OR (`|`)**: Performs a bitwise OR operation.
-   - **Bitwise XOR (`^`)**: Performs a bitwise XOR operation.
-   - **Bitwise NOT (`~`)**: Inverts all the bits of its operand.
-   - **Left Shift (`<<`)**: Shifts bits to the left.
-   - **Right Shift (`>>`)**: Shifts bits to the right.
-
-#### 5. **Assignment Operators**:
+#### 4. **Assignment Operators**:
    - **Assignment (`=`)**: Assigns the value of the right operand to the left operand.
    - **Add and assign (`+=`)**: Adds the right operand to the left operand and assigns the result to the left operand.
    - **Subtract and assign (`-=`)**: Subtracts the right operand from the left operand and assigns the result to the left operand.
@@ -127,11 +119,11 @@ Operators are special symbols or keywords used to perform operations on operands
    - **Divide and assign (`/=`)**: Divides the left operand by the right operand and assigns the result to the left operand.
    - **Modulus and assign (`%=`)**: Takes the modulus using the two operands and assigns the result to the left operand.
 
-#### 6. **Increment and Decrement Operators**:
+#### 5. **Increment and Decrement Operators**:
    - **Increment (`++`)**: Increases an integer value by one.
    - **Decrement (`--`)**: Decreases an integer value by one.
 
-#### 7. **Conditional (Ternary) Operator**:
+#### 6. **Conditional (Ternary) Operator**:
    - **Conditional (`?:`)**: Returns one of two values depending on the result of a condition.
 
 ### Example Program
