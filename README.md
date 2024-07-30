@@ -21,8 +21,9 @@ Visual Studio Code (VS Code) is a lightweight, extensible, open-source code edit
 int main() {
     std::cout << "Hello World!";
     return 0;
-}
 //Hello World!
+}
+
 
 ## Conclusion
 Downloading and Installing VS Code: Successfully installed VS Code, a versatile code editor, enabling an efficient coding environment.
@@ -60,7 +61,6 @@ int main() {
     std::cout << "Size of a6: " << sizeof(a6) << "byte"<< std::endl;
     
     return 0;
-}
 /*Size of a1: 4byte
 Size of a2: 4byte
 Size of a3: 1byte
@@ -68,6 +68,8 @@ Size of a4: 2byte
 Size of a5: 8byte
 Size of a6: 8byte
 */
+}
+
 
 ## Conclusion
 The structure of a C++ program includes preprocessor directives, namespace declarations, the main function, and various statements and expressions. Understanding and implementing different data types is crucial for effective programming in C++. This experiment provided hands-on experience with basic data types in C++ and demonstrated their usage within a simple program.
@@ -164,7 +166,6 @@ int main(){
     };  //--------COMPARISON OPERATOR
 
     return 0;
-}
 /*Enter the value for A
 12
 Enter the value for B
@@ -182,6 +183,7 @@ Modulus of the entered value is 4
 Incremented A is 13
 
 Decremented B is 7*/
+}
 
 ## Conclusion
 The experiment covered various operators in C++, including arithmetic, relational, logical, bitwise, assignment, increment/decrement, and the conditional operator. Understanding and correctly implementing these operators is essential for performing different types of operations and controlling the flow of a C++ program. This experiment provided practical knowledge of how these operators work and their applications in a program.
@@ -228,12 +230,6 @@ int main(){
     cout<<"RIGHT SHIFT of A by 2 is "<<a6<<endl<<endl;
 
     return 0;
-
-
-
-
-
-}
 /*Enter the value for A
 1
 Enter the value for B
@@ -250,6 +246,7 @@ LEFT SHIFT of A by 2 is 4
 
 RIGHT SHIFT of A by 2 is 0
 */
+}
 
 ## Conclusion
 Bitwise operators in C++ provide powerful tools for manipulating individual bits of data. They are used in a variety of low-level programming tasks and can greatly optimize certain types of operations. Understanding and implementing these operators is crucial for efficient and effective programming in system-level applications and performance-critical code. This experiment provided an in-depth understanding of how bitwise operators work and their practical applications.
