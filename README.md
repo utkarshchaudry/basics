@@ -16,13 +16,13 @@ Visual Studio Code (VS Code) is a lightweight, extensible, open-source code edit
 4. **Launch VS Code**: Open the installed application to start coding.
 
 ## Code
-#include <iostream>
+```#include <iostream>
 
 int main() {
     std::cout << "Hello World!";
     return 0;
 //Hello World!
-}
+}```
 
 
 ## Conclusion
