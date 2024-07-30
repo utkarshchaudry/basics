@@ -7,12 +7,12 @@ int main(){
     cin>>a;
     cout<<"Enter the value for B"<<endl;
     cin>>b;
-    a1=a&b;    //------BITWISE OPERATOR
-    a2=a|b;    //------BITWISE OPERATOR
-    a3=a^b;    //------BITWISE OPERATOR
-    a4=~b;     //------BITWISE OPERATOR
-    a5=a<<2;   //------BITWISE OPERATOR
-    a6=a>>2;   //------BITWISE OPERATOR
+    a1=a&b;   
+    a2=a|b;    
+    a3=a^b;    
+    a4=~b;     
+    a5=a<<2;   
+    a6=a>>2;   
 
     cout<<"AND of the entered value is "<<a1<<endl<<endl;
     cout<<"OR of the entered value is "<<a2<<endl<<endl;
