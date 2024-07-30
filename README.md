@@ -1,14 +1,19 @@
 # experiment 1
 ## Aim 
-
-To download and install Visual Studio Code (VS Code).
-To write and execute a simple "Hello, World!" program in C++.
-To write and execute a basic calculator program in C++.
+Downloading and Installing VS Code, (Hello World and Calculator 
 
 ## Theory
 Downloading and Installing Visual Studio Code
 Visual Studio Code (VS Code) is a lightweight, extensible, open-source code editor developed by Microsoft. It supports various programming languages, including C++, and provides features like IntelliSense, debugging, and Git integration.
 
+### Downloading and Installing Visual Studio Code
+**Visual Studio Code (VS Code)** is a lightweight, extensible, open-source code editor developed by Microsoft. It supports various programming languages, including C++, and provides features like IntelliSense, debugging, and Git integration.
+
+#### Steps to Download and Install VS Code:
+1. **Visit the Official Website**: Go to the [Visual Studio Code website](https://code.visualstudio.com/).
+2. **Download the Installer**: Select the appropriate installer for your operating system (Windows, macOS, or Linux).
+3. **Run the Installer**: Follow the on-screen instructions to install VS Code.
+4. **Launch VS Code**: Open the installed application to start coding.
 
 ## Conclusion
 Downloading and Installing VS Code: Successfully installed VS Code, a versatile code editor, enabling an efficient coding environment.
