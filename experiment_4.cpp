@@ -28,3 +28,19 @@ int main(){
 
 
 }
+/*Enter the value for A
+1
+Enter the value for B
+0
+AND of the entered value is 0
+
+OR of the entered value is 1
+
+XOR of the entered value is 1
+
+NOT of B is -1
+
+LEFT SHIFT of A by 2 is 4
+
+RIGHT SHIFT of A by 2 is 0
+*/
