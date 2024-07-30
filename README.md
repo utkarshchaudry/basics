@@ -140,3 +140,75 @@ The following example demonstrates the use of various operators in a C++ program
 ## Conclusion
 The experiment covered various operators in C++, including arithmetic, relational, logical, bitwise, assignment, increment/decrement, and the conditional operator. Understanding and correctly implementing these operators is essential for performing different types of operations and controlling the flow of a C++ program. This experiment provided practical knowledge of how these operators work and their applications in a program.
 
+
+
+# Experiment 4
+
+## Aim
+To study and implement C++ bitwise operators.
+
+## Theory
+
+### Bitwise Operators in C++
+Bitwise operators are used to perform bit-level operations on data. These operators work directly on the binary representation of integers and are used in various low-level programming tasks, such as system programming, device drivers, and encryption algorithms.
+
+#### Types of Bitwise Operators:
+
+1. **Bitwise AND (`&`)**:
+   - Performs a bitwise AND operation.
+   - Each bit of the result is set to 1 if both corresponding bits of the operands are 1.
+
+2. **Bitwise OR (`|`)**:
+   - Performs a bitwise OR operation.
+   - Each bit of the result is set to 1 if at least one of the corresponding bits of the operands is 1.
+
+3. **Bitwise XOR (`^`)**:
+   - Performs a bitwise XOR (exclusive OR) operation.
+   - Each bit of the result is set to 1 if only one of the corresponding bits of the operands is 1.
+
+4. **Bitwise NOT (`~`)**:
+   - Performs a bitwise NOT operation.
+   - Each bit of the result is the complement (inverse) of the corresponding bit of the operand.
+
+5. **Left Shift (`<<`)**:
+   - Shifts the bits of the first operand to the left by the number of positions specified by the second operand.
+   - New bits on the right are filled with zeros.
+
+6. **Right Shift (`>>`)**:
+   - Shifts the bits of the first operand to the right by the number of positions specified by the second operand.
+   - For unsigned types, new bits on the left are filled with zeros.
+   - For signed types, the result is implementation-defined (typically filled with the sign bit).
+
+### Bitwise Operations and Their Uses
+
+1. **Bitwise AND (`&`)**:
+   - Used to clear specific bits in a number.
+   - Example: Masking certain bits for specific operations.
+
+2. **Bitwise OR (`|`)**:
+   - Used to set specific bits in a number.
+   - Example: Combining multiple flags in a single variable.
+
+3. **Bitwise XOR (`^`)**:
+   - Used to toggle specific bits in a number.
+   - Example: Flipping bits in encryption algorithms.
+
+4. **Bitwise NOT (`~`)**:
+   - Used to invert all bits in a number.
+   - Example: Quickly computing the two's complement of a number.
+
+5. **Left Shift (`<<`)**:
+   - Used to multiply a number by a power of 2.
+   - Example: Efficient arithmetic operations in performance-critical code.
+
+6. **Right Shift (`>>`)**:
+   - Used to divide a number by a power of 2.
+   - Example: Efficient arithmetic operations in performance-critical code.
+
+### Practical Considerations
+- Bitwise operators are generally faster than arithmetic operators because they directly manipulate bits at the hardware level.
+- Understanding bitwise operations is essential for tasks involving low-level data manipulation, such as graphics programming, network programming, and cryptography.
+- Care must be taken with signed integers when using right shift (`>>`), as the result can be implementation-defined.
+
+## Conclusion
+Bitwise operators in C++ provide powerful tools for manipulating individual bits of data. They are used in a variety of low-level programming tasks and can greatly optimize certain types of operations. Understanding and implementing these operators is crucial for efficient and effective programming in system-level applications and performance-critical code. This experiment provided an in-depth understanding of how bitwise operators work and their practical applications.
