@@ -9,21 +9,6 @@ To write and execute a basic calculator program in C++.
 Downloading and Installing Visual Studio Code
 Visual Studio Code (VS Code) is a lightweight, extensible, open-source code editor developed by Microsoft. It supports various programming languages, including C++, and provides features like IntelliSense, debugging, and Git integration.
 
-### Steps to Download and Install VS Code:
-Visit the Official Website: Go to the Visual Studio Code website.
-Download the Installer: Select the appropriate installer for your operating system (Windows, macOS, or Linux).
-Run the Installer: Follow the on-screen instructions to install VS Code.
-Launch VS Code: Open the installed application to start coding.
-
-### Advantages of VS Code:
-Lightweight and Fast: Uses fewer system resources compared to full-fledged Integrated Development Environments (IDEs).
-Extensibility: Supports a wide range of extensions to enhance functionality.
-Integrated Terminal: Allows executing shell commands directly from the editor.
-Built-in Git Support: Simplifies version control management.
-IntelliSense: Provides intelligent code completions based on variable types, function definitions, and imported modules.
-
-Writing a "Hello, World!" Program in C++
-The "Hello, World!" program is traditionally the first program written by beginners learning a new programming language. It demonstrates the basic structure of a C++ program and how to output text to the console.
 
 ## Conclusion
 Downloading and Installing VS Code: Successfully installed VS Code, a versatile code editor, enabling an efficient coding environment.
@@ -125,9 +110,6 @@ Operators are special symbols or keywords used to perform operations on operands
 
 #### 6. **Conditional (Ternary) Operator**:
    - **Conditional (`?:`)**: Returns one of two values depending on the result of a condition.
-
-### Example Program
-The following example demonstrates the use of various operators in a C++ program:
 
 ## Conclusion
 The experiment covered various operators in C++, including arithmetic, relational, logical, bitwise, assignment, increment/decrement, and the conditional operator. Understanding and correctly implementing these operators is essential for performing different types of operations and controlling the flow of a C++ program. This experiment provided practical knowledge of how these operators work and their applications in a program.
