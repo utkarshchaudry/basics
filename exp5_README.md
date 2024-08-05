@@ -13,7 +13,8 @@ with multiple discrete values. Understanding and implementing these decision-mak
 dynamically to varying inputs and scenarios.
 
 ## Code
-'#include <iostream>
+```
+#include <iostream>
 using namespace std;
 
 int main() {
@@ -34,8 +35,7 @@ int main() {
 
     return 0;
 }
-/*Enter a letter: U
-U is a vowel..*/'
+```
 
 ## Conclusion
 Implementing decision-making statements in C++ is fundamental for developing flexible and dynamic programs. 
