@@ -4,13 +4,64 @@
 To study and implement C++ decision-making statements.
 
 ## Theory
-Decision-making statements in C++ are essential for controlling the flow of a program based on specific conditions. 
-These include if, if-else, else-if, and switch statements, which allow the program to make choices and execute different blocks of code 
-depending on the conditions. The if statement checks a condition and executes the associated code if it's true. The if-else statement 
-provides an alternative block of code for when the condition is false, while the else-if ladder evaluates multiple conditions sequentially. 
-The switch statement evaluates an expression and executes a corresponding block of code, offering a more structured approach when dealing 
-with multiple discrete values. Understanding and implementing these decision-making statements is crucial for creating programs that can respond 
-dynamically to varying inputs and scenarios.
+
+Decision-making in C++ allows programs to run certain parts of the code depending on specific conditions. This helps make the code flexible and adaptable. C++ offers several decision-making statements, such as:
+
+- `if`
+- `else if`
+- `else`
+- `switch`
+- `default`
+
+### `if` Statement
+
+The `if` statement is the simplest form of decision-making. It checks a condition and runs a block of code if the condition is true.
+
+**Syntax:**
+
+```cpp
+if (condition) {
+    // Runs this code if the condition is true
+}
+```
+
+### `else if` Statement
+
+The `if-else` statement allows for choosing between multiple paths. If the `if` condition is false, the `else if` condition is checked, and its code block runs if the condition is true.
+
+**Syntax:**
+
+```cpp
+if (condition_a) {
+    // Runs this code if condition_a is true
+} else if (condition_b) {
+    // Runs this code if condition_a is false and condition_b is true
+} else {
+    // Runs this code if both condition_a and condition_b are false
+}
+```
+
+### `switch` and `default` Statements
+
+The `switch` statement is a better choice when there are many conditions to check. It evaluates one expression and runs the matching `case` block. The `switch` statement is usually easier to read and less prone to mistakes than many `else if` statements. The `default` block acts like an `else` statement, running if none of the cases match.
+
+**Syntax:**
+
+```cpp
+switch (expression) {
+    case value_1:
+        // Runs this code if expression matches value_1
+        break;
+    case value_2:
+        // Runs this code if expression matches value_2
+        break;
+    default:
+        // Runs this code if no case matches
+        break;
+}
+```
+
+Using `switch` is often better when you have multiple specific values to check, as it is easier to type and debug. However, it doesn't provide a significant speed advantage over `else if` statements. For more complex decisions, you might use lookups or hash tables.
 
 ## Code
 ```
@@ -96,7 +147,4 @@ switch (month)
 ```
 
 ## Conclusion
-Implementing decision-making statements in C++ is fundamental for developing flexible and dynamic programs. 
-By using constructs like if, if-else, else-if, and switch, we can control the flow of a program and make it responsive 
-to different inputs and conditions. This experiment demonstrated how these statements enable efficient decision-making processes in C++, 
-allowing for the creation of robust applications that handle diverse scenarios and user interactions effectively.
+In this experiment we learnt how to implement all the type of decision making statement loops like for, while and do while in C++ programming language
