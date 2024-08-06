@@ -148,3 +148,54 @@ switch (month)
 
 ## Conclusion
 In this experiment we learnt how to implement all the type of decision making statement loops like for, while and do while in C++ programming language
+
+
+
+# Experiment 6
+
+## Aim
+To learn how to use loops like `for`, `while`, and `do-while` in C++.
+
+## Theory
+
+Loops are used to run a block of code multiple times, from a set number of times to possibly infinitely, depending on conditions or iterations. In this experiment, we will learn about three types of loops in C++:
+
+1. **`for` Loop**
+
+   A `for` loop runs a block of code for a specific number of times. It keeps running until a certain condition is met.
+
+   **Syntax:**
+
+   ```cpp
+   for (initialization; test_condition; counter) {
+       // Code to run on each loop
+   }
+   ```
+
+2. **`while` Loop**
+
+   A `while` loop runs a block of code as long as a certain condition is true. It stops running when the condition becomes false.
+
+   **Syntax:**
+
+   ```cpp
+   while (condition) {
+       // Code to run while the condition is true
+   }
+   ```
+
+3. **`do-while` Loop**
+
+   A `do-while` loop runs a block of code at least once. It then continues to run the code as long as the condition is true. The condition is checked after the code runs, so it always runs at least once.
+
+   **Syntax:**
+
+   ```cpp
+   do {
+       // Code to run at least once and repeat while the condition is true
+   } while (condition);
+   ```
+
+## Conclusion
+
+In this experiment we learnt how to implement all the type of decision making statement loops like for, while and do while in C++ programming language
