@@ -146,7 +146,8 @@ switch (month)
 }
 ```
 ## Output
-![image](https://github.com/user-attachments/assets/43dd58e1-ffa0-4110-8dae-5099a03c04b9)
+![image](https://github.com/user-attachments/assets/7b26462f-eb29-4991-ba28-a4bfda5a1113)
+
 
 ## Conclusion
 In this experiment we learnt how to implement all the type of decision making statement loops like for, while and do while in C++ programming language
