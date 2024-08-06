@@ -43,7 +43,7 @@ if (condition_a) {
 
 ### `switch` and `default` Statements
 
-The switch statement is a better choice when there are many conditions to check. It evaluates one expression and runs the matching case block. The switch statement is usually easier to read and less prone to mistakes than many else if statements. The `default` block acts like an else statement, running if none of the cases match.
+The switch statement is a better choice when there are many conditions to check. It evaluates one expression and runs the matching case block. The switch statement is usually easier to read and less prone to mistakes than many else if statements. The default block acts like an else statement, running if none of the cases match.
 
 **Syntax:**
 
@@ -61,7 +61,7 @@ switch (expression) {
 }
 ```
 
-Using `switch` is often better when you have multiple specific values to check, as it is easier to type and debug. However, it doesn't provide a significant speed advantage over `else if` statements. For more complex decisions, you might use lookups or hash tables.
+Using switch is often better when you have multiple specific values to check, as it is easier to type and debug. However, it doesn't provide a significant speed advantage over else if statements. For more complex decisions, you might use lookups or hash tables.
 
 ## Code
 ```
@@ -164,7 +164,7 @@ Loops are used to run a block of code multiple times, from a set number of times
 
 1. **`for` Loop**
 
-   A `for` loop runs a block of code for a specific number of times. It keeps running until a certain condition is met.
+   A for loop runs a block of code for a specific number of times. It keeps running until a certain condition is met.
 
    **Syntax:**
 
@@ -176,7 +176,7 @@ Loops are used to run a block of code multiple times, from a set number of times
 
 2. **`while` Loop**
 
-   A `while` loop runs a block of code as long as a certain condition is true. It stops running when the condition becomes false.
+   A while loop runs a block of code as long as a certain condition is true. It stops running when the condition becomes false.
 
    **Syntax:**
 
@@ -188,7 +188,7 @@ Loops are used to run a block of code multiple times, from a set number of times
 
 3. **`do-while` Loop**
 
-   A `do-while` loop runs a block of code at least once. It then continues to run the code as long as the condition is true. The condition is checked after the code runs, so it always runs at least once.
+   A do-while loop runs a block of code at least once. It then continues to run the code as long as the condition is true. The condition is checked after the code runs, so it always runs at least once.
 
    **Syntax:**
 
