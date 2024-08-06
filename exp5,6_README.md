@@ -15,7 +15,7 @@ Decision-making in C++ allows programs to run certain parts of the code dependin
 
 ### `if` Statement
 
-The `if` statement is the simplest form of decision-making. It checks a condition and runs a block of code if the condition is true.
+The if statement is the simplest form of decision-making. It checks a condition and runs a block of code if the condition is true.
 
 **Syntax:**
 
@@ -43,7 +43,7 @@ if (condition_a) {
 
 ### `switch` and `default` Statements
 
-The `switch` statement is a better choice when there are many conditions to check. It evaluates one expression and runs the matching `case` block. The `switch` statement is usually easier to read and less prone to mistakes than many `else if` statements. The `default` block acts like an `else` statement, running if none of the cases match.
+The switch statement is a better choice when there are many conditions to check. It evaluates one expression and runs the matching case block. The switch statement is usually easier to read and less prone to mistakes than many else if statements. The `default` block acts like an else statement, running if none of the cases match.
 
 **Syntax:**
 
