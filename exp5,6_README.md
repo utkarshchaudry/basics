@@ -145,6 +145,8 @@ switch (month)
 }
 }
 ```
+## Output
+![image](https://github.com/user-attachments/assets/43dd58e1-ffa0-4110-8dae-5099a03c04b9)
 
 ## Conclusion
 In this experiment we learnt how to implement all the type of decision making statement loops like for, while and do while in C++ programming language
@@ -195,6 +197,43 @@ Loops are used to run a block of code multiple times, from a set number of times
        // Code to run at least once and repeat while the condition is true
    } while (condition);
    ```
+## Code
+```
+#include <iostream>
+using namespace std;
+
+int main() {
+    // Using while loop
+    int i = 0;
+    cout << "Using while loop:" << endl;
+    while (i < 100) {
+        cout << "hello world while loop " << endl;
+        i++;
+    }
+
+    cout << endl; 
+
+    // Using for loop
+    cout << "Using for loop:" << endl;
+    for (int j = 0; j < 100; j++) {
+        cout << "hello world for loop" << endl;
+    }
+
+    cout << endl; 
+
+    // Using do-while loop
+    int k = 0;
+    cout << "Using do-while loop:" << endl;
+    do {
+        cout << "hello world do-while loop" << endl;
+        k++;
+    } while (k < 100);
+
+    return 0;
+}
+```
+## Output
+![image](https://github.com/user-attachments/assets/105f26f5-d73d-460d-b972-8cf8175f2873)
 
 ## Conclusion
 
